@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  istio-discovery:
+  - apiVersion: v1
+    created: "2021-05-22T11:32:04.833682053Z"
+    description: Helm chart for istio control plane
+    digest: 0fa6b84d4389f547d3719ced6792bb74628cfd0b20ffe1b6de96920fb6c2bcb2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-discovery-1.10.0/istio-discovery-1.10.0.tgz
+    version: 1.10.0
+generated: "2021-05-22T11:32:04.702887308Z"
