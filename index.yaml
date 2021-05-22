@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  istio-base:
+  - apiVersion: v1
+    created: "2021-05-22T11:44:26.594214743Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: bbab794525396430f754dd2432ac93461c362fc7b845ff9278ddb711f50d0096
+    keywords:
+    - istio
+    name: istio-base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-base-1.10.1/istio-base-1.10.1.tgz
+    version: 1.10.1
   istio-cni:
   - apiVersion: v1
     created: "2021-05-22T11:34:00.397616909Z"
