@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  istio-cni:
+  - apiVersion: v1
+    created: "2021-05-22T11:34:00.397616909Z"
+    description: Helm chart for istio-cni components
+    digest: 68168647b0f5a0ab08b16708b6712f66e18100a8399b8596d156c713c1eaeebf
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    name: istio-cni
+    sources:
+    - http://github.com/istio/cni
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-cni-1.10.0/istio-cni-1.10.0.tgz
+    version: 1.10.0
   istio-discovery:
   - apiVersion: v1
     created: "2021-05-22T11:32:04.833682053Z"
@@ -15,5 +30,67 @@ entries:
     - http://github.com/istio/istio
     urls:
     - https://github.com/sedflix/charts/releases/download/istio-discovery-1.10.0/istio-discovery-1.10.0.tgz
+    version: 1.10.0
+  istio-egress:
+  - apiVersion: v1
+    created: "2021-05-22T11:34:00.500272227Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 9c794223489d78bf3538601b42337c7832d8c5a207f1f69160e3b83d0ea823ba
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-egress-1.10.0/istio-egress-1.10.0.tgz
+    version: 1.10.0
+  istio-ingress:
+  - apiVersion: v1
+    created: "2021-05-22T11:34:00.603247248Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 26e92e39822ce00e16f20d4492b95c445dac5e7b5f721ebe37d6742b0e69cfcd
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-ingress-1.10.0/istio-ingress-1.10.0.tgz
+    version: 1.10.0
+  istio-operator:
+  - apiVersion: v1
+    created: "2021-05-22T11:34:00.714713679Z"
+    description: Helm chart for deploying Istio operator
+    digest: e54815fce167bf748e0d28e330ba5854f3b8afbc9effd4f9d220c9c08691b2bb
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: istio-operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istio-operator-1.10.0/istio-operator-1.10.0.tgz
+    version: 1.10.0
+  istiod-remote:
+  - apiVersion: v1
+    created: "2021-05-22T11:34:00.8955386Z"
+    description: Helm chart for istio control plane configuration for remote clusters
+    digest: ed38a272744c99eaf792aebc62ba83767d9f0ebb8967c729b2657ca7cae288bf
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod-remote
+    name: istiod-remote
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/sedflix/charts/releases/download/istiod-remote-1.10.0/istiod-remote-1.10.0.tgz
     version: 1.10.0
 generated: "2021-05-22T11:32:04.702887308Z"
